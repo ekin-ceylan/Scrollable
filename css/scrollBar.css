@@ -1,0 +1,40 @@
+.scrollable{
+    overflow: hidden !important;
+    position: relative;
+}
+
+.scroll-car {
+    top: 0;
+    background-color: green;
+    height: 30px;
+    width: 7px;
+    right: 10px;
+    position: absolute;
+    border-radius: 1px;
+    box-shadow: 0 5px 5px gray;
+    z-index: 1;
+
+    -moz-transition: right 10ms;
+    -o-transition: right 10ms;
+    -webkit-transition: right 10ms;
+    transition: right 10ms;
+
+    -moz-transition-delay: 0ms;
+    -o-transition-delay: 0ms;
+    -webkit-transition-delay: 0ms;
+    transition-delay: 0ms;
+}
+
+.scroll-car-hide {
+    right: -20px;
+
+    -moz-transition: right 2s;
+    -o-transition: right 2s;
+    -webkit-transition: right 2s;
+    transition: right 2s;
+
+    -moz-transition-delay: 500ms;
+    -o-transition-delay: 500ms;
+    -webkit-transition-delay: 500ms;
+    transition-delay: 500ms;
+}
